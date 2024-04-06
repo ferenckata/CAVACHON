@@ -5,6 +5,8 @@
 ## Installation
 ```batch
 # for developers
+conda create -n cavachon python=3.8
+conda activate cavachon
 pip install -r requirements.txt
  
 # for users
