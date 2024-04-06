@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
   name='CAVACHON',
-  version='0.0.0',
+  version='1.0.0',
   description="""Cell cluster Analysis with Variational Autoencoder using Conditional Hierarchy Of latent representioN""",
   url='https://github.com/dn070017/CAVACHONE',
   author='Ping-Han Hsieh',
