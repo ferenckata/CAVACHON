@@ -14,7 +14,7 @@ pip install -e .
 ## Perform Analysis
 ### Input Preparation
 Please refer to [config template](./sample_data/config_templates/README.md) for detail specification. 
-The sample data can be downloaded here: [GSE126074 RNA](https://drive.google.com/file/d/1ONp7Z-ur7MIF6jfn_mez6EZDT48xJaNL/view?usp=sharing), [GSE126074 ATAC](https://drive.google.com/file/d/1lvLDWWFI4y13oaYYtNe6RHUsduy-rnj6/view?usp=sharing). The sample config can be found in `sample_data/config_templates`.
+The sample data can be downloaded here: [GSE126074 RNA](http://download.gao-lab.org/GLUE/dataset/Chen-2019-RNA.h5ad), [GSE126074 ATAC](http://download.gao-lab.org/GLUE/dataset/Chen-2019-ATAC.h5ad). The sample config can be found in `sample_data/config_templates`.
 
 ### Model Training
 ```python
