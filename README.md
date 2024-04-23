@@ -1,10 +1,12 @@
 [![Python 3.8 (Ubuntu-latest)](https://github.com/dn070017/CAVACHON/actions/workflows/unittest.yaml/badge.svg)](https://github.com/dn070017/CAVACHON/actions/workflows/unittest.yaml)
-# CAVACHON (Under Development)
+# CAVACHON v1.0.0
 **C**ell cluster **A**nalysis with **V**ariational **A**utoencoder using **C**onditional **H**ierarchy **Of** latent representio**N** is the Tensorflow implementation of the research "[_Using hierarchical variational autoencoders to incorporate conditional independent priors for paired single-cell multi-omics data integration_ (NeurIPS LMRL Workshop 2022)](https://drive.google.com/file/d/1-WLQ3fQtIffnC2_b64iEw_6to4bcJrfi/view?usp=sharing)" by PH Hsieh, RX Hsiao, T Belova, KT Ferenc, A Mathelier, R Burkholz, CY Chen, GK Sandve, ML Kuijjer.
 
 ## Installation
 ```batch
 # for developers
+conda create -n cavachon python=3.8
+conda activate cavachon
 pip install -r requirements.txt
  
 # for users
